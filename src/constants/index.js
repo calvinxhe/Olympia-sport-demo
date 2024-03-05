@@ -117,7 +117,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "customer@olympiasports.com", link: "mailto:customer@olympiasports.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "+(123) 524-4332", link: "tel:+1235244332" },
         ],
     },
 ];
