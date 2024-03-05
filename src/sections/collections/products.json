@@ -1,0 +1,37 @@
+[
+    {
+      "id": "prod-1",
+      "category": {
+        "id": "Women's",
+        "name": "Shoe"
+      },
+      "name": "Olympia Sports Air Max 270",
+      "price": "99.99",
+      "isFeatured": true,
+      "size": "medium",
+      "color": "white",
+      "images": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/87600cfa-b9c3-4901-bec2-7faa0ddffec2/air-max-270-womens-shoes-Pgb94t.png"
+        }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "category": {
+        "id": "cat-2",
+        "name": "Pants"
+      },
+      "name": "Olympia Sport Cotton Sweats",
+      "price": "49.99",
+      "isFeatured": false,
+      "size": "large",
+      "color": "blue",
+      "images": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f31e733e-ac2d-4885-9b8c-d213f4d02859/mens-therma-fit-basketball-cargo-pants-ds9fdM.png"
+        }
+      ]
+    }
+  ]
+  
