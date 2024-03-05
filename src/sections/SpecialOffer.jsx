@@ -6,14 +6,18 @@ const SpecialOffer = () => {
   return (
     <section className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
       <div className='flex-1'>
-        <video loop autoPlay muted 
-          alt='Shoe Promotion'
-          width={673}
-          height={587}
-          className='object-contain w-1/2 pl-10'>
-          <source src="src/assets/images/pexels_videos_2785536 (2160p).mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div className="relative w-full max-w-xl mx-auto aspect-video">
+  <iframe
+    className="absolute top-0 left-0 w-full h-full"
+    src="https://www.youtube.com/embed/3r7d4qhKCp8?autoplay=1&mute=1&loop=1&playlist=3r7d4qhKCp8&controls=0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-20"></div>
+</div>
+
       </div>
       <div className='flex flex-1 flex-col'>
         <h2 className='text-4xl font-palanquin font-bold'>
